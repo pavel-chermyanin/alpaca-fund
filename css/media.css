@@ -47,6 +47,9 @@
   .main-page__packets{
     margin-top: -300px;
   }
+  .product-page__todo-item span{
+    opacity: 1;
+  }
 }
 @media (max-width: 650px) {
   .packets__items {
