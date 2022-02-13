@@ -22,6 +22,6 @@ $(function () {
     $('.product-page__todo-item span').each(function(index, item) {
         setTimeout(() => {
             item.style.opacity = '1';
-        }, index * 300);
+        }, (index + 2) * 300);
     })
 })
