@@ -20,13 +20,10 @@ $(function () {
     // animate for product-page__todo-item
 
 
-    if ($(window).width() > 768) {
-        console.log('!')
         $('.product-page__todo-item span').each(function(index, item) {
             setTimeout(() => {
                 item.style.opacity = '1';
             }, (index + 2) * 300);
         })
-    }
 
 })
